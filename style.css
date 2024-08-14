@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(
+    rgba(0, 0, 0, 0.5), 
+    rgba(0, 0, 0, 0.5));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+      padding: 20px 30px 20px 30px ;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);       
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+
+}
+input{
+
+    padding: 5px 3px 5px 6px;
+    width: 250px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0,0.5);
+}
+h2{
+    padding: 20px;
+}
+h3{
+    justify-self: start;
+    padding-bottom: 5px;
+}
+button{
+    width: 100%;
+    padding: 10px 20px 10px 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    background-color: lightgreen;
+    color: black;
+    font-weight: 600;
+    font-size: large;
+}
+button:hover{
+    background-color: green;
+    color: white;
+}
+
+@media screen and (max-width: 327px){
+    form {
+        padding: 12px ;
+    }
+}
